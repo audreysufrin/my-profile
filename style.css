@@ -1,0 +1,73 @@
+body {
+    background-color: bisque;
+    text-align: center;
+} 
+
+h1 {
+    color: blue;
+}
+
+h1:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color:darkblue;
+}
+
+a:hover {
+    color: salmon;
+    font-size: xx-large;
+}
+
+image {
+    border-radius: 50%;
+}
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+.presentation {
+    background-color: rgba(226, 43, 186, 0.938);
+    }
+
+.at-le-wagon {
+    background-color: rgb(40, 161, 197);
+}
+
+.my-links {
+    background-color: rgb(43, 230, 43);
+}
+
+ul  {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rounding-corner {
+    border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width:540px) {
+    .container {
+        width: 300px;
+    }
+}
